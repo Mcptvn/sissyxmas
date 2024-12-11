@@ -3,167 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sissy Xmas Itinerary</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>MC Present - Sissy Xmas Itinerary</title>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
             margin: 0;
-            padding: 0;
-            background-image: url('https://www.example.com/silk-background.jpg'); /* Replace with actual silk background URL */
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            color: #4a4a4a;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         header {
             text-align: center;
-            padding: 3rem 1rem;
-            font-size: 3rem;
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;
-            color: #fff;
-            background: rgba(0, 0, 0, 0.6);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            border-radius: 12px;
-            margin: 20px auto;
-            max-width: 80%;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 1.8rem;
+            width: 100%;
         }
-        main {
-            padding: 40px;
-            max-width: 900px;
-            margin: 20px auto;
-            background: rgba(255, 255, 255, 0.9);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            border-radius: 16px;
-            font-size: 1.2rem;
+        .embed-container {
+            position: relative;
+            width: 90%;
+            max-width: 1200px;
+            height: 0;
+            padding-top: 56.2225%;
+            margin-top: 1.6em;
+            margin-bottom: 1.6em;
+            box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+            border-radius: 8px;
+            overflow: hidden;
         }
-        h2 {
-            color: #b45f06;
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            text-align: center;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 1.5rem;
-            background: rgba(255, 250, 240, 0.95);
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-            color: #4a4a4a;
-        }
-        li strong {
-            color: #7d4b29;
-            font-family: 'Playfair Display', serif;
-            font-weight: 700;
+        .embed-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
         }
         footer {
             text-align: center;
-            padding: 1.5rem;
-            margin-top: 40px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            font-size: 1rem;
-            font-family: 'Poppins', sans-serif;
-            border-radius: 12px;
-            max-width: 80%;
-            margin: 20px auto;
-        }
-        .notify {
-            display: inline-block;
             margin-top: 20px;
-            padding: 15px 30px;
-            color: #fff;
-            background-color: #b45f06;
-            border-radius: 25px;
-            font-size: 1rem;
-            text-decoration: none;
-            font-family: 'Poppins', sans-serif;
-        }
-        .notify:hover {
-            background-color: #9e4b03;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <header>
-        Sissy Xmas Itinerary
-    </header>
-    <main>
-        <h2>Wednesday, December 18</h2>
-        <ul>
-            <li><strong>3:00 PM &ndash; Arrival:</strong> Pick up your parents from the airport and bring them to their accommodation in the Plateau. Allow them time to rest and settle in.</li>
-            <li><strong>6:30 PM &ndash; Welcome Dinner at Home:</strong> Serve a light and comforting meal, lol we will eat whatever I can cook hihi.</li>
-            <li><strong>8:00 PM &ndash; Relaxing Evening:</strong> Chat over tea or wine to unwind, and Uber them home.</li>
-        </ul>
-
-        <h2>Thursday, December 19</h2>
-        <ul>
-            <li><strong>8:30 AM &ndash; Breakfast at Home:</strong> Enjoy fresh pastries, coffee, and fruit, or meet somewhere for breakfast.</li>
-            <li><strong>10:00 AM &ndash; Explore Old Montreal:</strong> Walk along Place Jacques-Cartier and Rue Saint-Paul, stopping at boutiques and art galleries. Visit Notre-Dame Basilica for a quick tour.</li>
-            <li><strong>1:00 PM &ndash; Lunch:</strong> Petit Sao or somewhere easy and fast.</li>
-            <li><strong>6:30 PM &ndash; Dinner:</strong> Either at home or out depending on the vibe.</li>
-        </ul>
-
-        <h2>Friday, December 20</h2>
-        <ul>
-            <li><strong>8:30 AM &ndash; Breakfast at Home:</strong> Again, not sure about the breakfast plan lol.</li>
-            <li><strong>10:00 AM &ndash; Shopping at Costco:</strong> Take your parents to Costco at 300 Rue Bridge for some fun shopping and grocery stock-up.</li>
-            <li><strong>12:30 PM &ndash; Lunch at Costco Food Court:</strong> Affordable options like hot dogs or pizza.</li>
-            <li><strong>2:00 PM &ndash; Shopping at Quartier DIX30:</strong> Explore shops and boutiques in Brossard for clothes, gifts, or specialty items, she (my mom) wants to shop lol.</li>
-            <li><strong>6:30 PM &ndash; Dinner at Home:</strong> Use fresh ingredients from Costco to prepare something fun like raclette or fondue or whatever weird stuff they will find.</li>
-        </ul>
-
-        <h2>Saturday, December 21</h2>
-        <ul>
-            <li><strong>8:00 AM &ndash; Breakfast:</strong> Serve a hearty meal to prepare for the day.</li>
-            <li><strong>9:00 AM &ndash; Day Trip to Mt. Tremblant:</strong> My lovely wholesome boyfriend drives for a scenic walk in Mt. Tremblant and see Xmas stuff.</li>
-            <li><strong>12:30 PM &ndash; Lunch in Same Place:</strong> Whatever we could find, didn’t Google it yet.</li>
-            <li><strong>4:00 PM &ndash; Return to Montreal:</strong> Relax after the trip.</li>
-            <li><strong>6:30 PM &ndash; Dinner at Home:</strong> Cook a cozy meal like baked salmon or pasta, lol they will go home they old.</li>
-        </ul>
-
-        <h2>Sunday, December 22</h2>
-        <ul>
-            <li><strong>8:30 AM &ndash; Breakfast:</strong> Start the day with fresh pastries and coffee ... again no clue about this.</li>
-            <li><strong>10:00 AM &ndash; Sunday Church Service:</strong> Attend a family service in the morning probably not me lol have to pick up the adopted one.</li>
-            <li><strong>12:00 PM &ndash; Pick Up Your Brother from the Airport:</strong> Your lovely awesome boyfriend will drive you to the airport to meet him or if he’s busy I Uber hihi no worries.</li>
-            <li><strong>1:30 PM &ndash; Girls’ Afternoon with Your Mom:</strong> Get manicures with Adri and her mom, she confirmed for once, and go shopping on St. Catherine Street.</li>
-            <li><strong>6:30 PM &ndash; Family Dinner at Home:</strong> Make something festive like roast chicken or lamb with seasonal vegetables probably poutine or something wanna go La Banquise to show them.</li>
-        </ul>
-
-        <h2>Monday, December 23</h2>
-        <ul>
-            <li><strong>8:30 AM &ndash; Breakfast:</strong> Fresh pastries or TBD.</li>
-            <li><strong>10:00 AM &ndash; Dim Sum:</strong> Feast TBD location.</li>
-            <li><strong>12:30 PM &ndash; Explore Mile End or Chinatown:</strong> Visit Saint-Viateur Bagel, Café Olimpico, or go visit Chinatown my mom wanted to find cheap gifts there.</li>
-            <li><strong>6:30 PM &ndash; Dinner:</strong> Something fun or cozy at home.</li>
-        </ul>
-
-        <h2>Tuesday, December 24 (Christmas Eve)</h2>
-        <ul>
-            <li><strong>9:00 AM &ndash; Holiday Breakfast/Brunch:</strong> Special treats like smoked salmon and croissants... I’ll try lol.</li>
-            <li><strong>4:00 PM &ndash; Evening Church Service:</strong> Midnight service instead of 4 PM.</li>
-            <li><strong>7:00 PM &ndash; Christmas Eve Dinner:</strong> Celebrate with a traditional meal and gift exchange.</li>
-        </ul>
-
-        <h2>Wednesday, December 25 (Christmas Day)</h2>
-        <ul>
-            <li><strong>9:00 AM &ndash; Christmas Breakfast:</strong> Enjoy holiday cheer.</li>
-            <li><strong>12:00 PM &ndash; Walk in Mount Royal Park:</strong> TBD based on vibes.</li>
-            <li><strong>1:30 PM &ndash; Christmas Lunch:</strong> Buffet-style feast or whatever works.</li>
-        </ul>
-        <a href="#" class="notify">Notify Me!</a>
-    </main>
-    <footer>
-        <p>&copy; 2024 Po is the best xoxo</p>
-    </footer>
+    <header>Sissy Xmas Itinerary</header>
+    <div class="embed-container">
+        <iframe loading="lazy" src="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+    </div>
+    <footer>&copy; 2024 MC Present by Marie-Cécile Poitevin</footer>
 </body>
 </html>
