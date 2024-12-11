@@ -9,65 +9,41 @@
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #f8f8f8;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            scroll-behavior: smooth;
         }
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            font-size: 1.8rem;
-            width: 100%;
-        }
-        .embed-container {
+        .embed-section {
             position: relative;
             width: 100%;
-            max-width: 1200px;
-            height: 0;
-            padding-top: 56.2225%;
-            margin-top: 1.6em;
-            margin-bottom: 0.9em;
-            box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-            border-radius: 8px;
+            height: 100vh; /* Each section takes up full screen height */
             overflow: hidden;
+            margin: 0;
         }
-        .embed-container iframe {
+        iframe {
             position: absolute;
-            width: 100%;
-            height: 100%;
             top: 0;
             left: 0;
-            border: none;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            font-size: 0.9rem;
             width: 100%;
-        }
-        footer a {
-            color: #4caf50;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <header>Sissy Xmas Itinerary</header>
-    <div class="embed-container">
-        <iframe loading="lazy" src="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-        </iframe>
+    <!-- Section 1 -->
+    <div class="embed-section">
+        <iframe src="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?embed" allowfullscreen="allowfullscreen"></iframe>
     </div>
-    <footer>
-        <p>&copy; 2024 <a href="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?utm_content=DAGY8GWFwb4&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">MC Present</a> by Marie-Cécile Poitevin</p>
-    </footer>
+    <!-- Section 2 -->
+    <div class="embed-section">
+        <iframe src="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?embed" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+    <!-- Section 3 -->
+    <div class="embed-section">
+        <iframe src="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?embed" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+    <!-- Section 4 -->
+    <div class="embed-section">
+        <iframe src="https://www.canva.com/design/DAGY8GWFwb4/lbWMLSZVqDUIKUR9hA3HpQ/view?embed" allowfullscreen="allowfullscreen"></iframe>
+    </div>
 </body>
 </html>
-
